@@ -168,16 +168,36 @@ Receive: ACK: Battery voltage reading initiated
 ### 1. Setup Hardware
 Connect all components according to the wiring table above.
 
-### 2. Upload Code
-Copy all Python files to your Raspberry Pi Pico:
+### 2. Get Required Libraries
+The manager modules depend on sensor and breakout board libraries from the [OjasJha/micropython-lib](https://github.com/OjasJha/micropython-lib.git) repository.
+
+Clone or download the repository:
+```bash
+git clone https://github.com/OjasJha/micropython-lib.git
+```
+
+**Required libraries for Step 0:**
+- `com/uart/uart_handler.py` - UART communication handler
+- `io/oled-ssd1306/ssd1306_handler.py` - SSD1306 OLED display driver
+
+> **Important**: Copy these library files directly to the same folder as the VyomSat modules (flat structure). Do NOT maintain the directory structure from the repository.
+
+### 3. Upload Code
+Copy all Python files to your Raspberry Pi Pico in the **same folder**:
+
+**VyomSat Step 0 Modules:**
 - `vyomsat.py`
 - `vyomsat_battery_manager.py`
 - `vyomsat_oled_manager.py`
 - `vyomsat_xbee_manager.py`
-- `uart_handler.py` (UART communication handler)
-- `ssd1306_handler.py` (OLED display driver)
 
-### 3. Run
+**Libraries from micropython-lib repository:**
+- `uart_handler.py` (from `com/uart/`)
+- `ssd1306_handler.py` (from `io/oled-ssd1306/`)
+
+All files should be in the root directory of your Pico, or in the same `step-00-eps-com/` folder.
+
+### 4. Run
 ```python
 # On Pico - execute main script
 python vyomsat.py
@@ -185,7 +205,7 @@ python vyomsat.py
 
 Or set it as `main.py` to run automatically on boot.
 
-### 4. Monitor
+### 5. Monitor
 - **USB Console**: Connect serial terminal (115200 baud) to monitor debug output
 - **OLED**: View real-time telemetry on display
 - **XBee**: Receive telemetry stream and send commands
