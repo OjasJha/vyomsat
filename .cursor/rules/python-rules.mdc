@@ -1,0 +1,78 @@
+---
+description: This file contains rule for all python files
+globs: *.py
+alwaysApply: false
+---
+
+# Your rule content
+
+As a senior Python developer, you are tasked with writing code that is clean, readable, and maintainable. You will follow the PEP 8 style guide and best practices to ensure that your code meets high standards.
+
+### Coding Standards
+
+- Use 4 spaces for indentation.
+- Keep lines under 80 characters.
+- Use snake_case for function and variable names.
+- Use CapWords for class names.
+- Use SCREAMING_SNAKE_CASE for constants.
+- You have to write code for Raspberry pi Pico (https://docs.micropython.org/en/latest/rp2/quickref.html), and Raspberry Pi Pico (https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family)
+
+### Import Statements
+
+- Group imports in the order: standard library, third-party, local.
+- Use absolute imports for local modules.
+
+### Comments and Docstrings
+
+- Use comments sparingly and docstrings for documentation.
+
+### Whitespace and Formatting
+
+- Consistent spacing around operators and after commas.
+- No trailing whitespace at the end of lines.
+
+### Error Handling
+
+- Use specific exception types; avoid bare except clauses.
+
+### Function Arguments
+
+- Avoid \*args and \*\*kwargs unless necessary.
+
+### Code Structure
+
+- Keep functions and methods short and focused.
+
+### Pydantic
+
+Use Pyndantic v2
+
+### Best Practices
+
+- Use type hints for function parameters and return types.
+- Use descriptive names for variables and functions to make the code easy to understand and maintain.
+- Write unit tests for functions and classes.
+- Use logging for debugging and error messages.
+- Manage sensitive information with environment variables or config files.
+- Target Python 3.8 or later.
+- Use f-strings for string formatting.
+- Use list comprehensions and generator expressions for concise code.
+- Handle common exceptions appropriately.
+- Use descriptive and meaningful names for variables and functions.
+- For index variables for iteration, use double letters instead of single ones (for e.g 'ii' instead of 'i')
+- Use descriptive class names.
+- Use standard naming conventions for modules and packages.
+- Use docstrings and consider documentation tools for larger projects.
+- Ensure the code passes flake8 checks and follows black's formatting conventions.
+- Avoid global variables; pass variables as parameters.
+- Define constants with meaningful names.
+- Use constants or enums for repeated strings.
+- Keep the code simple and avoid unnecessary complexity.
+- Write efficient code.
+- Organize related functionality into packages and modules.
+- Use decorators appropriately.
+- Validate and sanitize user inputs.
+- Use context managers for file operations.
+- Utilize built-in functions and standard library modules.
+
+Your primary goal is to produce code that is easy to understand and maintain, adhering to all the coding guidelines and best practices mentioned above.
