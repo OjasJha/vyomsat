@@ -46,6 +46,43 @@ Step 0 implements a complete Electrical Power System (EPS) monitoring solution w
 
 > **Note**: Battery voltage must be reduced to 0-3.3V range using a voltage divider circuit (default: 2:1 ratio allows measuring up to 6.6V).
 
+### Circuit Diagrams
+
+Visual references for hardware setup are provided using Fritzing diagrams:
+
+#### Schematic Diagram
+![VyomSat EPS+COM Schematic](eps-com_schematic.png)
+
+The schematic shows the electrical connections including:
+- Solar panel array with charge controller (CN3065)
+- Multiple power rails (3.3V, 5V) with boost/buck converters
+- Raspberry Pi Pico/Pico2 connections
+- OLED display I2C interface
+- XBee communication module
+- Battery voltage sensing circuit
+- LED status indicators
+- Power management components
+
+#### Breadboard Layout
+![VyomSat EPS+COM Breadboard](eps-com_breadboard.png)
+
+The breadboard layout provides a practical wiring guide showing:
+- Physical component placement
+- Wire routing and connections
+- Power distribution
+- Module interconnections
+
+#### Bill of Materials (BOM)
+A complete parts list with quantities and specifications is available: **[eps-com_bom.html](eps-com_bom.html)**
+
+The BOM includes:
+- Complete component listing with labels and part numbers
+- Shopping list with quantities needed
+- Component specifications and properties
+- All resistors, capacitors, ICs, and modules required
+
+> **Fritzing Software**: These diagrams were created using [Fritzing](https://fritzing.org/), an open-source electronics design tool. You can download Fritzing from [fritzing.org/download](https://fritzing.org/download/) to view, edit, or create your own circuit diagrams.
+
 ## Architecture
 
 The system is organized into modular components:
