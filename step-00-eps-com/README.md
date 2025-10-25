@@ -303,14 +303,6 @@ MAIN_LOOP_DELAY_SECONDS = 4   # Update interval
 - **Stop Bits**: 1
 - **Flow Control**: None
 
-## Next Steps
-
-This Step 0 module provides the foundation for more advanced VyomSat features:
-- Step 1: Add MPU6050 motion sensor
-- Step 2: Integrate GPS module
-- Step 3: Add SD card data logging
-- Step 4: Implement camera capture
-
 ## License
 
 MIT License - Copyright (c) 2025 Ojas Jha
