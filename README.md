@@ -1,3 +1,31 @@
+> [!IMPORTANT]
+> ## 🚀 VyomSat has moved
+>
+> Active development now lives under the **[VyomSat](https://github.com/vyomsat)** GitHub organization. This personal repository is no longer the source of truth for the classroom satellite, ground software, or educational research.
+
+| 🧩 **This repository** | 🛰️ **VyomSat Alpha** |
+|:-----------------------|:----------------------|
+| Archived **FlatSat** | Current **1U** classroom CubeSat |
+| 🔌 Breadboard wiring, buses, and subsystem bring-up | 🧱 Custom **PCB**, enclosure, and functioning assembly |
+| 🧪 Bench testing and historical reference | 🛠️ Hardware, firmware, and mission-cycle testing |
+| 📦 Not the source of truth | ⚠️ Educational bench platform (**not flight-qualified**) |
+
+### 🔗 Continue under the VyomSat organization
+
+| | Project | What you will find |
+|:---:|:--------|:-------------------|
+| 🛰️ | **[VyomSat Alpha](https://github.com/vyomsat/vyomsat-alpha)** | PCB-based **1U** classroom CubeSat: hardware, firmware, enclosure, subsystem validation, and mission-cycle testing |
+| 📡 | **[Ground Station](https://github.com/vyomsat/vyomsat-alpha-ground-station)** | Browser mission console: USB telemetry, spacecraft commands, parsed health data, and live GPS visualization |
+| 🎓 | **[Impact Study](https://github.com/vyomsat/vyomsat-alpha-impact-study)** | Educational-efficacy research: study design, field data, and analysis |
+
+> [!WARNING]
+> ⚠️ **Not flight-qualified.** VyomSat Alpha is a functioning educational CubeSat for the classroom bench. It is not spacecraft hardware intended for orbital deployment.
+
+> [!NOTE]
+> 📦 This repository is **archived** and retained for historical reference. Please star, fork, open issues, and contribute on the organization repositories above.
+
+---
+
 # VyomSat - Essence of Space. Built by You.
 
 **A step-by-step learning kit for exploring microsatellite technology through hands-on CubeSat development**
@@ -16,8 +44,8 @@ VyomSat is an educational kit designed to make space technology accessible throu
 **Sat** ties to "satellite," but in Sanskrit also means truth, being, existence.
 
 VyomSat can be read as:
-- **"Space Satellite"** – straightforward and modern
-- **"Truth of Space" / "Essence of the Sky"** – deeper, Sanskrit-inspired meaning
+- **"Space Satellite"** - straightforward and modern
+- **"Truth of Space" / "Essence of the Sky"** - deeper, Sanskrit-inspired meaning
 
 Short, internationally pronounceable, with both technical and cultural essence. 🚀✨
 
@@ -35,7 +63,7 @@ This project was born from a gap in STEM education: high school students often l
 ### Vision
 **Share knowledge about microsatellite technology through a practical kit that offers hands-on training and meaningful interaction with real engineering systems.**
 
-Space is the final frontier—and it's also one of the best ways to learn engineering in a multidisciplinary way.
+Space is the final frontier, and it's also one of the best ways to learn engineering in a multidisciplinary way.
 
 ---
 
